@@ -80,9 +80,7 @@ function keyFunc(event) {
     }
 
 }
-
 document.addEventListener('keydown', keyFunc)
-
 
 // NOTE INTERVAL RULES ---------------------------------------------------
 
