@@ -1,0 +1,40 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(224, 221, 221);
+  color: tomato;
+  font-size: 5em;
+}
+#table {
+  color: tomato;
+  font-size: 0.5em;
+  margin-bottom: 1em;
+}
+
+canvas {
+  background-color: #0da958;
+  border-radius: 0.3em;
+  box-shadow: 0 0.1em 0.7em #333;
+}
+
+#reload {
+  margin-top: 1.5em;
+  background: #0da958;
+  color: whitesmoke;
+  padding: 1em;
+  border: none;
+  box-shadow: 0 0.3em 0.5em #888;
+  cursor: pointer;
+  font-size: 20px;
+}
